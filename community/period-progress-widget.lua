@@ -24,7 +24,7 @@ function on_click()
 end
 
 function get_time(y,m,d)
-    return os.time{day=d,month=m,year=y}
+    return os.time{hour=0,day=d,month=m,year=y}
 end
 
 function init_progressbar()
